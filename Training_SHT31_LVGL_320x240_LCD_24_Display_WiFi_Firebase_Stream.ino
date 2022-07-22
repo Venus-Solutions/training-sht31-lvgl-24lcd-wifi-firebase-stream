@@ -3,8 +3,8 @@
 //#include <WiFi.h>
 #include <IOXhop_FirebaseESP32.h>
 
-#define FIREBASE_HOST "up-training-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "0MPNPEeoO4fUqbJSxr5npzcycsh2Wv1uKL9aC2aj"
+#define FIREBASE_HOST "up-training-default-rtdb.firebaseio.com"           //<==========แก้เป็น Firebase URL ที่จะใช้งาน
+#define FIREBASE_AUTH "0MPNPEeoO4fUqbJSxr5npzcycsh2Wv1uKL9aC2aj"          //<==========แก้เป็น Database secrets ที่จะใช้งาน
 
 #define tempDir "node99/temp"                 //<==========แก้ให้ไม่เหมือนกัน
 #define humiDir "node99/humi"                 //<==========แก้ให้ไม่เหมือนกัน
